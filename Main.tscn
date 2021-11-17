@@ -61,6 +61,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="TileMap/Player"]
 frames = SubResource( 2 )
 animation = "idle"
+frame = 3
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="TileMap/Player"]
