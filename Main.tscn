@@ -55,12 +55,12 @@ position = Vector2( 83.8795, 173.83 )
 script = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Player"]
-position = Vector2( -0.967583, -18.957 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="TileMap/Player"]
 frames = SubResource( 2 )
 animation = "idle"
+frame = 3
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="TileMap/Player"]
